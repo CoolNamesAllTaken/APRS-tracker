@@ -1,4 +1,4 @@
 # APRS-tracker
-Code written by John McNelly for an Arduino Mega, used to packetize sensor data and GPS coordinates into data packets following the protocol of the Automatic Packet Reporting System (APRS) network, a HAM radio network used to track objects and send messages.
+Code written by John McNelly for Menlo School's Applied Science Research Class in Winter 2014.  Used an Arduino Mega to packetize sensor data and GPS coordinates into data packets following the protocol of the Automatic Packet Reporting System (APRS), a HAM radio digipeater network used to track objects and send messages via data packets.
 
-This code was used on an Arduino Mega in conjunction with a TinyPack Terminal Node Controller and a Baofeng BF-F8+ handheld radio, and was mounted inside a weather balloon payload to transmit live sensor data and GPS coordinates to a ground station during the balloon's flight.
+This code was used on an Arduino Mega in conjunction with a TinyPack Terminal Node Controller and a Baofeng BF-F8+ handheld radio, and was mounted inside a weather balloon payload to transmit live sensor data and GPS coordinates to a ground station over the APRS network during the balloon's flight.  The code worked successfully throughout the flight, transmitting live sensor data and GPS coordinates and enabling the chase team to follow and recover the balloon.
